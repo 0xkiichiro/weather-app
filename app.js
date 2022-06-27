@@ -17,7 +17,7 @@ const getWeatherDataFromApi = async () => {
   //   alert("http request sent!");
   let apiKey = DecryptStringAES(localStorage.getItem("apiKey"));
   let inputValue = input.value;
-  let lang = "tr";
+  let lang = "eng";
   let unitType = "metric";
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${apiKey}&units=${unitType}&lang=${lang}`;
 
