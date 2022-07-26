@@ -3,10 +3,10 @@ const input = document.querySelector(".top-banner form input");
 const msg = document.querySelector("span.msg");
 const list = document.querySelector(".ajax-section .cities");
 
-// localStorage.setItem(
-//   "apiKey",
-//   EncryptStringAES("ca9eea956a0c6f5a4ccd9ca6cf057ad7")
-// );
+localStorage.setItem(
+  "apiKey",
+  EncryptStringAES("ca9eea956a0c6f5a4ccd9ca6cf057ad7")
+);
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
