@@ -1,4 +1,4 @@
-## Description
+## Weather App
 
 Project aims to display current weather data of searched city around the world with fetching Weather Api data. Used Axios to fetch data and CryptoJS to encrypt the API key.
 
@@ -18,7 +18,7 @@ HTML, CSS, JS, Axios.js, CryptoJS
 Axios.js: https://axios-http.com/docs/intro
 CryptoJS:https://cryptojs.gitbook.io/docs/
 
-## Check the full-functioning site at: [](https://0xkiichiro.github.io/weather-app/)
+## Check the full-functioning site at: https://0xkiichiro.github.io/weather-app/
 
 ![](https://github.com/0xkiichiro/weather-app/blob/master/Animation.gif)
 
